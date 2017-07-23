@@ -1,0 +1,121 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="assets/css/bootstrap.css">
+		<link rel="stylesheet" href="assets/css/carousel.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.css">
+		<link rel="stylesheet" href="index.css">
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="index.js"></script>
+</head>
+	<body>
+	<div class="navigation">
+					 <nav class="navbar navbar-default my_nav">
+						  <div class="container">
+							<div class="navbar-header">
+							  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							  </button>
+							  <a class="navbar-brand" href="#"><label class="logo">LUNCHTIME</label></a>
+							</div>
+							<div id="navbar" class="navbar-collapse collapse ">
+							  <ul class="nav navbar-nav ">
+								<li><a href="index.html">HOME</a></li>
+								<li><a href="#">RESERVATION</a></li>
+								<li><a href="gallery.html">GALLERY</a></li>
+								<li><a href="service.html">SERVICES</a></li>
+								
+							<li class="dropdown" id="flip">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MENU <span class="caret"></span></a>
+								 <ul class="dropdown-menu" id="panel">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									
+									<li><a href="#">Separated link</a></li>
+									<li><a href="#">One more separated link</a></li>
+								  </ul>
+							</li>
+								
+								<li><a href="about.html">ABOUTUS</a></li>
+								<li><a href="contact.html">CONTACT</a></li>
+							  </ul>
+							
+							</div><!--/.nav-collapse -->
+						  </div>
+						</nav>
+					</div>
+	<!----------------nav-------------->
+		<div class="container-fluid">
+			<div class="black_conatct">
+			<div class="row">
+			
+				<div class="col-sm-6">
+					<img src="img/1490 1.jpg" class="img-responsive" style="margin:90px 0 0 0;height:350px;width:520px;">
+				</div>
+			
+			
+				<div class="col-sm-6">
+					<div class="form-group">
+						<h3 style="margin:55px 0 10px 0;font-size:16px;">Name</h3>
+							<input type="text" class="form-control my_formcontrol" placeholder="" id="fname">
+							<p id="fnamerror"></p>
+					</div>
+					
+					<div class="form-group">
+						<h3 style="font-size:16px;">Email</h3>
+							<input type="text" class="form-control my_formcontrol" placeholder="" id="Email">
+							<p id="emailerror"></p>
+					</div>
+				
+					<div class="form-group">
+						<h3 style="font-size:16px;">Time</h3>
+							<select class="form-control my_formcontrol" placeholder="" id="mobile">
+								<option value="">choose time</option>
+								<option value="1">6:00</option>
+								<option value="2">7:00</option>
+								<option value="3">7:30</option>
+								<option value="4">8:00</option>
+								<p id="mobileerror"></p>
+							
+							</select>
+						</div>
+					
+					<div class="form-group">
+						<h3 style="font-size:16px;">Date</h3>
+						
+						<select class="form-control my_formcontrol" placeholder="" id="company">
+								<option value="">choose date</option>
+								<option value="1">1/8/2017</option>
+								<option value="2">1/8/2017</option>
+								<option value="3">1/8/2017</option>
+								<option value="4">1/8/2017</option>
+								<p id="companyerror"></p>
+							
+							</select>
+							
+							
+					</div>
+					
+				
+					<div class="text-center">
+						<button class="btn btn-warning contact_btn" onclick="send_btn1()" id="send_btn">Send</button>
+					</div>
+				
+				
+				
+				
+				</div>
+				<!--------------formend----------->
+			
+			
+	</div>
+	
+	
+	
+	</body>
+</html>
